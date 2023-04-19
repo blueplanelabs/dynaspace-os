@@ -4,16 +4,8 @@ Class {
 	#category : #BaselineOfDynaSpaceOS
 }
 
-{ #category : #baseline }
-BaselineOfDynaSpaceOS >> baseline: spec [
-	<baseline>
-		^ spec for: #common do: [
-			spec package: 'DynaSpaceOS'
-		]
-]
-
 { #category : #accessing }
-BaselineOfDynaSpaceOS >> loadLepiter [ 
+BaselineOfDynaSpaceOS class >> loadLepiter [ 
 	IceRepository registry  
 		detect: [ :aRepository |
 			aRepository name = 'dynaspace-os' ]
@@ -25,4 +17,12 @@ BaselineOfDynaSpaceOS >> loadLepiter [
 			defaultDatabase reload ]
 		ifNone: [
 			self inform: 'Repository not found.' ]
+]
+
+{ #category : #baseline }
+BaselineOfDynaSpaceOS >> baseline: spec [
+	<baseline>
+		^ spec for: #common do: [
+			spec package: 'DynaSpaceOS'
+		]
 ]
