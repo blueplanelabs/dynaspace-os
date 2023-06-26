@@ -174,7 +174,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-06-26T16:46:47.388001+02:00"
+						"dateAndTimeString" : "2023-06-26T23:26:06.218133+02:00"
 					}
 				},
 				"uid" : {
@@ -208,7 +208,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-06-26T16:47:49.272671+02:00"
+						"dateAndTimeString" : "2023-06-26T23:32:00.56424+02:00"
 					}
 				},
 				"uid" : {
@@ -218,7 +218,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Nos creamos el método del ejemplo:"
+				"string" : "Creamos el método del ejemplo:"
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -245,14 +245,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-06-26T17:13:10.053739+02:00"
+						"dateAndTimeString" : "2023-06-27T00:02:11.090092+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "+848BWu7DQC12QQ5B+SxEg=="
 				},
-				"code" : "exampleNewDynaSpaceSouceCodeText := '\rexampleNewDynaSpace\r\t<gtExample>\r\t| newDynaSpace |\r\tnewDynaSpace := DynOSDynaSpace new.\r\tself assert: newDynaSpace hasKnownObjects not.\r\tself assert: newDynaSpace hasDetectedObjects not.\r\t^ newDynaSpace\r\t'.\rDynOSDynaSpaceExamples compile: exampleNewDynaSpaceSouceCodeText classified: #examples"
+				"code" : "exampleNewDynaSpaceSouceCodeText := '\rexampleNewDynaSpace\r\t<gtExample>\r\t| newDynaSpace |\r\tnewDynaSpace := DynOSDynaSpace new.\r\tself assert: newDynaSpace hasKnownObjects not.\r\tself assert: newDynaSpace hasDetectedObjects not.\r\t^ newDynaSpace\r\t'.\rDynOSDynaSpaceExamples compile: exampleNewDynaSpaceSouceCodeText classified: #examples."
 			},
 			{
 				"__type" : "textSnippet",
@@ -279,7 +279,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-06-26T17:15:49.22981+02:00"
+						"dateAndTimeString" : "2023-06-26T23:32:32.088375+02:00"
 					}
 				},
 				"uid" : {
@@ -289,7 +289,41 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "El ejemplo quedaría como sigue {{gtExample:DynOSDynaSpaceExamples>>#exampleNewDynaSpace|expanded=true}}"
+				"string" : "El ejemplo quedaría como sigue "
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-06-26T23:32:36.377344+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-06-26T23:32:37.71623+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "yliA03C7DQCcZX1vDFVs9g=="
+				},
+				"code" : "DynOSDynaSpaceExamples >> #exampleNewDynaSpace"
 			},
 			{
 				"__type" : "textSnippet",
@@ -316,7 +350,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-06-26T17:16:15.970079+02:00"
+						"dateAndTimeString" : "2023-06-26T22:36:31.423854+02:00"
 					}
 				},
 				"uid" : {
@@ -326,7 +360,217 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "El IDE"
+				"string" : "El IDE nos muestra que debemos crear la clase *DynOSDynaSpace* y sus métodos de instancia *hasKnownObjects* y *hasDetectedObjects*"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-06-26T23:13:17.258567+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-06-26T23:26:31.033755+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "pZxpjnC7DQCa0zIrDFVs9g=="
+				},
+				"code" : "Object\r\tsubclass: #DynOSDynaSpace\r\tinstanceVariableNames: ''\r\tclassVariableNames: ''\r\tpackage: 'DynaSpaceOS'"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-06-26T23:58:38.240414+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-06-27T00:05:54.531803+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "PoCYMHG7DQCdYKO6DFVs9g=="
+				},
+				"code" : "hasKnownObjectsSourceCodeText := '\rhasKnownObjects\r\t^ false\r\t'.\rDynOSDynaSpace compile: hasKnownObjectsSourceCodeText classified: #api.\rDynOSDynaSpace >> #hasKnownObjects"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-06-27T00:01:39.792013+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-06-27T00:05:59.101269+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "18VqO3G7DQCeuYqGDFVs9g=="
+				},
+				"code" : "hasDetectedObjectsSourceCodeText := '\rhasDetectedObjects\r\t^ false\r\t'.\rDynOSDynaSpace compile: hasDetectedObjectsSourceCodeText classified: #api.\rDynOSDynaSpace >> #hasDetectedObjects"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-06-27T00:21:59.803689+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-06-27T00:22:56.411284+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "RMEbBnC7DQCX8ZJKDFVs9g=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Inspeccionando el método de ejemplo observamos que ya se han creado las clase y los método. También podemos ejecutar el ejemplo y ver que es correcto."
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-06-27T00:21:29.262147+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-06-27T00:21:30.005467+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "mqZQgnG7DQCguih5DFVs9g=="
+				},
+				"code" : "DynOSDynaSpaceExamples >> #exampleNewDynaSpace"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-06-26T22:35:21.553459+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-06-26T22:35:21.553459+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "XyLFBnC7DQCX+5iPDFVs9g=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : ""
 			}
 		]
 	},
