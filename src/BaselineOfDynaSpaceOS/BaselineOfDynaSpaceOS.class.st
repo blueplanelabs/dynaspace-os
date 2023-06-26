@@ -18,11 +18,3 @@ BaselineOfDynaSpaceOS class >> loadLepiter [
 		ifNone: [
 			self inform: 'Repository not found.' ]
 ]
-
-{ #category : #baseline }
-BaselineOfDynaSpaceOS >> baseline: spec [
-	<baseline>
-		^ spec for: #common do: [
-			spec package: 'DynaSpaceOS'
-		]
-]
