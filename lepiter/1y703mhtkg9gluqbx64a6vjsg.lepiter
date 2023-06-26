@@ -215,7 +215,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-06-26T10:51:56.181087+02:00"
+						"dateAndTimeString" : "2023-06-26T14:56:20.494383+02:00"
 					}
 				},
 				"uid" : {
@@ -225,7 +225,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[Model]]"
+				"string" : "[[Creando el modelo básico del sistema]]]"
 			}
 		]
 	},
