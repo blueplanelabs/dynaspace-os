@@ -250,14 +250,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-06-27T00:02:11.090092+02:00"
+									"dateAndTimeString" : "2023-06-28T18:44:44.727717+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "+848BWu7DQC12QQ5B+SxEg=="
 							},
-							"code" : "exampleNewDynaSpaceSouceCodeText := '\rexampleNewDynaSpace\r\t<gtExample>\r\t| newDynaSpace |\r\tnewDynaSpace := DynOSDynaSpace new.\r\tself assert: newDynaSpace hasKnownObjects not.\r\tself assert: newDynaSpace hasDetectedObjects not.\r\t^ newDynaSpace\r\t'.\rDynOSDynaSpaceExamples compile: exampleNewDynaSpaceSouceCodeText classified: #examples."
+							"code" : "DynOSDynaSpaceExamples\r\tcompile: '\rexampleNewDynaSpace\r\t<gtExample>\r\t| newDynaSpace |\r\tnewDynaSpace := DynOSDynaSpace new.\r\tself assert: newDynaSpace hasKnownObjects not.\r\tself assert: newDynaSpace hasDetectedObjects not.\r\t^ newDynaSpace\r'\r\tclassified: #examples"
 						},
 						{
 							"__type" : "textSnippet",
@@ -426,14 +426,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-06-27T00:05:54.531803+02:00"
+									"dateAndTimeString" : "2023-06-28T18:47:52.223728+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "PoCYMHG7DQCdYKO6DFVs9g=="
 							},
-							"code" : "hasKnownObjectsSourceCodeText := '\rhasKnownObjects\r\t^ false\r\t'.\rDynOSDynaSpace compile: hasKnownObjectsSourceCodeText classified: #api.\rDynOSDynaSpace >> #hasKnownObjects"
+							"code" : "DynOSDynaSpace\r\tcompile: '\rhasKnownObjects\r\t^ false\r'\r\tclassified: #api.\rDynOSDynaSpace >> #hasKnownObjects"
 						},
 						{
 							"__type" : "pharoSnippet",
@@ -460,14 +460,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-06-27T00:05:59.101269+02:00"
+									"dateAndTimeString" : "2023-06-28T18:47:56.492923+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "18VqO3G7DQCeuYqGDFVs9g=="
 							},
-							"code" : "hasDetectedObjectsSourceCodeText := '\rhasDetectedObjects\r\t^ false\r\t'.\rDynOSDynaSpace compile: hasDetectedObjectsSourceCodeText classified: #api.\rDynOSDynaSpace >> #hasDetectedObjects"
+							"code" : "DynOSDynaSpace\r\tcompile: '\rhasDetectedObjects\r\t^ false\r\t'\r\tclassified: #api.\rDynOSDynaSpace >> #hasDetectedObjects"
 						},
 						{
 							"__type" : "textSnippet",
@@ -602,14 +602,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-06-27T12:37:50.519602+02:00"
+									"dateAndTimeString" : "2023-06-28T18:48:46.062043+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "GBVvrHu7DQCmF27tCqisuA=="
 							},
-							"code" : "exampleAddObjectsToEmptyDynaSpaceSouceCodeText := '\rexampleAddObjectsToEmptyDynaSpace\r\t<gtExample>\r\t| dynaSpace |\r\tdynaSpace := self exampleNewDynaSpace.\r\tdynaSpace addDetectedObject: Object new.\r\tdynaSpace addKnownObject: Object new.\r\tself assert: dynaSpace hasKnownObjects.\r\tself assert: dynaSpace hasDetectedObjects.\r\t^ dynaSpace\r\t'.\rDynOSDynaSpaceExamples compile: exampleAddObjectsToEmptyDynaSpaceSouceCodeText classified: #examples.\rDynOSDynaSpaceExamples >> #exampleAddObjectsToEmptyDynaSpace"
+							"code" : "DynOSDynaSpaceExamples\r\tcompile: '\rexampleAddObjectsToEmptyDynaSpace\r\t<gtExample>\r\t| dynaSpace |\r\tdynaSpace := self exampleNewDynaSpace.\r\tdynaSpace addDetectedObject: Object new.\r\tdynaSpace addKnownObject: Object new.\r\tself assert: dynaSpace hasKnownObjects.\r\tself assert: dynaSpace hasDetectedObjects.\r\t^ dynaSpace\r\t'\r\tclassified: #examples.\rDynOSDynaSpaceExamples >> #exampleAddObjectsToEmptyDynaSpace"
 						},
 						{
 							"__type" : "textSnippet",
@@ -673,14 +673,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-06-27T12:48:11.322362+02:00"
+									"dateAndTimeString" : "2023-06-28T18:49:04.644408+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "s1m95nu7DQCquxl4CqisuA=="
 							},
-							"code" : "addDetectedObjectSourceCodeText := '\raddDetectedObject: anObject\r\tdetectedObjects add: anObject\r'.\rDynOSDynaSpace compile: addDetectedObjectSourceCodeText classified: #api.\rDynOSDynaSpace >> #addDetectedObject:."
+							"code" : "DynOSDynaSpace\r\tcompile: '\raddDetectedObject: anObject\r\tdetectedObjects add: anObject\r'\r\tclassified: #api.\rDynOSDynaSpace >> #addDetectedObject:"
 						},
 						{
 							"__type" : "textSnippet",
@@ -815,14 +815,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-06-27T13:02:37.858603+02:00"
+									"dateAndTimeString" : "2023-06-28T18:49:41.485467+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "1nAFGny7DQC1O38SCqisuA=="
 							},
-							"code" : "initilizeSourceCodeText := '\rinitialize\r\tdetectedObjects := Set empty\r'.\rDynOSDynaSpace compile: initilizeSourceCodeText classified: #initialize.\rDynOSDynaSpace >> #initialize"
+							"code" : "DynOSDynaSpace\r\tcompile: '\rinitialize\r\tdetectedObjects := Set empty\r'\r\tclassified: #initialize.\rDynOSDynaSpace >> #initialize"
 						},
 						{
 							"__type" : "textSnippet",
@@ -886,14 +886,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-06-27T12:54:43.648597+02:00"
+									"dateAndTimeString" : "2023-06-28T18:50:08.941249+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "tE3sBHy7DQCyFxdVCqisuA=="
 							},
-							"code" : "addKnownObjectSourceCodeText := '\raddKnownObject: anObject\r\tknownObjects add: anObject\r'.\rDynOSDynaSpace compile: addKnownObjectSourceCodeText classified: #api.\rDynOSDynaSpace >> #addKnownObject:."
+							"code" : "DynOSDynaSpace\r\tcompile: '\raddKnownObject: anObject\r\tknownObjects add: anObject\r'\r\tclassified: #api.\rDynOSDynaSpace >> #addKnownObject:"
 						},
 						{
 							"__type" : "pharoSnippet",
@@ -920,14 +920,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-06-27T13:04:17.506896+02:00"
+									"dateAndTimeString" : "2023-06-28T18:50:28.035281+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "HKLHCHy7DQCymTg4CqisuA=="
 							},
-							"code" : "DynOSDynaSpace addSlot: #knownObjects.\rinitilizeSourceCodeText := '\rinitialize\r\tdetectedObjects := Set empty.\r\tknownObjects := Set empty.\r'.\rDynOSDynaSpace compile: initilizeSourceCodeText classified: #initialize.\rDynOSDynaSpace >> #initialize"
+							"code" : "DynOSDynaSpace addSlot: #knownObjects.\rDynOSDynaSpace\r\tcompile: '\rinitialize\r\tdetectedObjects := Set empty.\r\tknownObjects := Set empty.\r'\r\tclassified: #initialize.\rDynOSDynaSpace >> #initialize"
 						},
 						{
 							"__type" : "textSnippet",
@@ -1062,14 +1062,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-06-27T15:06:38.611306+02:00"
+									"dateAndTimeString" : "2023-06-28T18:51:41.215506+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "KTpW3H27DQCP76QXDtAjJg=="
 							},
-							"code" : "hasKnownObjectsSourceCodeText := '\rhasKnownObjects\r\t^ knownObjects isNotEmpty\r'.\rDynOSDynaSpace compile: hasKnownObjectsSourceCodeText.\rDynOSDynaSpace >> #hasKnownObjects"
+							"code" : "DynOSDynaSpace\r\tcompile: '\rhasKnownObjects\r\t^ knownObjects isNotEmpty\r'\r\tclassified: #api.\rDynOSDynaSpace >> #hasKnownObjects"
 						},
 						{
 							"__type" : "pharoSnippet",
@@ -1096,14 +1096,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-06-27T13:09:15.754462+02:00"
+									"dateAndTimeString" : "2023-06-28T18:52:13.538449+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "Vz69NHy7DQC8s6pSCqisuA=="
 							},
-							"code" : "hasDetectedObjectsSourceCodeText := '\rhasDetectedObjects\r\t^ detectedObjects isNotEmpty\r'.\rDynOSDynaSpace compile: hasDetectedObjectsSourceCodeText.\rDynOSDynaSpace >> #hasDetectedObjects"
+							"code" : "DynOSDynaSpace\r\tcompile: '\rhasDetectedObjects\r\t^ detectedObjects isNotEmpty\r'\r\tclassified: #api.\rDynOSDynaSpace >> #hasDetectedObjects"
 						},
 						{
 							"__type" : "textSnippet",
@@ -1528,7 +1528,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-06-28T12:58:39.968629+02:00"
+									"dateAndTimeString" : "2023-06-28T18:53:14.017764+02:00"
 								}
 							},
 							"uid" : {
@@ -1599,14 +1599,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-06-28T11:39:25.551203+02:00"
+									"dateAndTimeString" : "2023-06-28T18:53:25.207303+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "21bZ1467DQC/abyACRintw=="
 							},
-							"code" : "DynOSDynaSpace compile: '\rgtInputFor: aView\r\t<gtView>\r\t| dynaSpaceElement |\r\tdynaSpaceElement := BlElement new\r\t\tgeometry: BlRoundedRectangleGeometry new;\r\t\tsize: size;\r\t\tbackground: Color white;\r\t\tborder: (BlBorder builder\r\t\t\t\tpaint: Color black;\r\t\t\t\twidth: 3;\r\t\t\t\tdashed;\r\t\t\t\tbuild);\r\t\tyourself.\r\t^ aView explicit\r\t\t  title: #Input;\r\t\t  priority: 10;\r\t\t  stencil: [ dynaSpaceElement asScalableElement ]\r' classified: 'gt-inspector-extension'.\rDynOSDynaSpace methodNamed: #gtInputFor:\r"
+							"code" : "DynOSDynaSpace\r\tcompile: '\rgtInputFor: aView\r\t<gtView>\r\t| dynaSpaceElement |\r\tdynaSpaceElement := BlElement new\r\t\tgeometry: BlRoundedRectangleGeometry new;\r\t\tsize: size;\r\t\tbackground: Color white;\r\t\tborder: (BlBorder builder\r\t\t\t\tpaint: Color black;\r\t\t\t\twidth: 3;\r\t\t\t\tdashed;\r\t\t\t\tbuild);\r\t\tyourself.\r\t^ aView explicit\r\t\t  title: #Input;\r\t\t  priority: 10;\r\t\t  stencil: [ dynaSpaceElement asScalableElement ]\r'\r\tclassified: 'gt-inspector-extension'.\rDynOSDynaSpace methodNamed: #gtInputFor:"
 						},
 						{
 							"__type" : "textSnippet",
@@ -1679,8 +1679,79 @@
 							},
 							"search" : "DynOSDynaSpace new",
 							"replace" : "DynOSDynaSpace withSize: 200@100",
-							"scope" : "#(#('Class' 'Dyn') )",
+							"scope" : "#(#('Class' 'DynOSDynaSpaceExamples') )",
 							"isMethodPattern" : false
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-06-28T18:34:06.378303+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-06-28T18:34:29.539292+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "zj2q45S7DQC6zVziCRintw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Haciendo este cambio programáticamente sería:"
+						},
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-06-28T18:33:40.976752+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-06-28T18:54:32.996042+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "zaEm4pS7DQC6xEhJCRintw=="
+							},
+							"code" : "DynOSDynaSpaceExamples compile: '\rexampleNewDynaSpace\r\t<gtExample>\r\t| newDynaSpace |\r\tnewDynaSpace := DynOSDynaSpace withSize: 200@100.\r\tself assert: newDynaSpace hasKnownObjects not.\r\tself assert: newDynaSpace hasDetectedObjects not.\r\t^ newDynaSpace\r' classified: #examples.\rDynOSDynaSpaceExamples methodNamed: #exampleNewDynaSpace\r\"searchMethods := 'DynOSDyñnaSpaceExamples' gtClassMatches.\rrewriteSnippet := LePharoRewriteSnippet new\r\t\tsearch: 'DynOSDynaSpace new';\r\t\treplace: 'DynOSDynaSpace withSize: 200@100';\r\t\tscope: '#(#(''Class'' ''DynOSDynaSpaceExamples'') )';\r\t\tisMethodPattern: false\r\t\tyourself.\r\r(rewriteSnippet executeRewriteInFilter: searchMethods) then: [ :nameSpace |\rnameSpace changes gtExecuteWithNotification ].\""
 						},
 						{
 							"__type" : "pharoSnippet",
@@ -1778,14 +1849,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-06-28T12:27:41.129968+02:00"
+									"dateAndTimeString" : "2023-06-28T18:54:48.758912+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "4Rihw4+7DQCOGQaeCRintw=="
 							},
-							"code" : "DynOSDynaSpace compile: '\rgtInputFor: aView\r\t<gtView>\r\t^ aView explicit\r\t\t  title: #Input;\r\t\t  priority: 10;\r\t\t  stencil: [ self asElement asScalableElement ]\r' classified: 'gt-inspector-extension'.\rDynOSDynaSpace methodNamed: #gtInputFor:"
+							"code" : "DynOSDynaSpace\r\tcompile: '\rgtInputFor: aView\r\t<gtView>\r\t^ aView explicit\r\t\t  title: #Input;\r\t\t  priority: 10;\r\t\t  stencil: [ self asElement asScalableElement ]\r'\r\tclassified: 'gt-inspector-extension'.\rDynOSDynaSpace methodNamed: #gtInputFor:"
 						},
 						{
 							"__type" : "textSnippet",
@@ -1849,14 +1920,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-06-28T12:32:03.507912+02:00"
+									"dateAndTimeString" : "2023-06-28T18:54:55.021081+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "Px0Szo+7DQCQxX5NCRintw=="
 							},
-							"code" : "DynOSDynaSpace compile: '\rasElement\r\t^ DynOSDynaSpaceElement for: self\r' classified: 'gt-inspector-extension'.\rDynOSDynaSpace methodNamed: #asElement"
+							"code" : "DynOSDynaSpace\r\tcompile: '\rasElement\r\t^ DynOSDynaSpaceElement for: self\r'\r\tclassified: 'gt-inspector-extension'.\rDynOSDynaSpace methodNamed: #asElement"
 						},
 						{
 							"__type" : "textSnippet",
@@ -1991,7 +2062,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-06-28T12:57:20.049264+02:00"
+									"dateAndTimeString" : "2023-06-28T18:55:03.126869+02:00"
 								}
 							},
 							"uid" : {
@@ -2062,7 +2133,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-06-28T13:44:24.324347+02:00"
+									"dateAndTimeString" : "2023-06-28T18:55:10.94796+02:00"
 								}
 							},
 							"uid" : {
@@ -2133,7 +2204,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-06-28T14:02:12.894832+02:00"
+									"dateAndTimeString" : "2023-06-28T18:55:15.068596+02:00"
 								}
 							},
 							"uid" : {
@@ -2204,14 +2275,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-06-28T14:03:44.78085+02:00"
+									"dateAndTimeString" : "2023-06-28T18:55:20.67341+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "rQjvDpG7DQCnUT6mCRintw=="
 							},
-							"code" : "DynOSDynaSpaceElement\r\tcompile: '\raddLimits\r\tself\r\t\taddChild: (BlElement new\r\t\t\t\tgeometry: BlRoundedRectangleGeometry new;\r\t\t\t\tsize: dynaSpace size;\r\t\t\t\tbackground: Color white;\r\t\t\t\tborder: (BlBorder builder\r\t\t\t\t\t\tpaint: Color black;\r\t\t\t\t\t\twidth: 3;\r\t\t\t\t\t\tdashed;\r\t\t\t\t\t\tbuild);\r\t\t\t\tyourself)\r\t' classified: #initialization.\rDynOSDynaSpaceElement methodNamed: #addLimits"
+							"code" : "DynOSDynaSpaceElement\r\tcompile: '\raddLimits\r\tself\r\t\taddChild: (BlElement new\r\t\t\t\tgeometry: BlRoundedRectangleGeometry new;\r\t\t\t\tsize: dynaSpace size;\r\t\t\t\tbackground: Color white;\r\t\t\t\tborder: (BlBorder builder\r\t\t\t\t\t\tpaint: Color black;\r\t\t\t\t\t\twidth: 3;\r\t\t\t\t\t\tdashed;\r\t\t\t\t\t\tbuild);\r\t\t\t\tyourself)\r\t'\r\tclassified: #initialization.\rDynOSDynaSpaceElement methodNamed: #addLimits"
 						},
 						{
 							"__type" : "pharoSnippet",
