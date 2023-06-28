@@ -930,40 +930,6 @@
 							"code" : "DynOSDynaSpace addSlot: #knownObjects.\rinitilizeSourceCodeText := '\rinitialize\r\tdetectedObjects := Set empty.\r\tknownObjects := Set empty.\r'.\rDynOSDynaSpace compile: initilizeSourceCodeText classified: #initialize.\rDynOSDynaSpace >> #initialize"
 						},
 						{
-							"__type" : "pharoSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-06-27T12:55:47.52992+02:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-06-27T12:55:52.215243+02:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "CQPrC3y7DQCywVKLCqisuA=="
-							},
-							"code" : "DynOSDynaSpace >> #addKnownObject:."
-						},
-						{
 							"__type" : "textSnippet",
 							"children" : {
 								"__type" : "snippets",
@@ -1201,7 +1167,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-06-27T15:26:23.08199+02:00"
+									"dateAndTimeString" : "2023-06-28T15:38:35.48253+02:00"
 								}
 							},
 							"uid" : {
@@ -1238,7 +1204,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-06-27T16:06:20.001837+02:00"
+									"dateAndTimeString" : "2023-06-28T15:23:43.938875+02:00"
 								}
 							},
 							"uid" : {
@@ -1248,7 +1214,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "Ahora vamos a realizar la visualización de los objetos detectados en un *DynaSpace*."
+							"string" : "Ahora vamos a proporcionar visualizaciones personalizadas a los elementos del modelo que hemos ido utilizando, es decir, los *DetectedOjects* y los *DynaSpaces*. En esa visualización personalizada queremos que se nos muestre, inicialmente, su representación espacial."
 						},
 						{
 							"__type" : "textSnippet",
@@ -1275,7 +1241,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-06-27T16:08:26.390722+02:00"
+									"dateAndTimeString" : "2023-06-27T22:05:47.967445+02:00"
 								}
 							},
 							"uid" : {
@@ -1285,7 +1251,44 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "Comenzaremos probando en un playground hasta conseguir la visualización que queramos."
+							"string" : "Comenzaremos probando en un playground para conseguir la visualización que queramos."
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-06-27T22:08:37.299019+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-06-27T22:09:00.33287+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "JSc0woO7DQC9ULYwBl5hgQ=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "El siguiente código mostraría la visualización de un *DynaSpace* vacío."
 						},
 						{
 							"__type" : "pharoSnippet",
@@ -1312,14 +1315,937 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-06-27T16:44:39.246919+02:00"
+									"dateAndTimeString" : "2023-06-27T22:08:13.974835+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "xW/ruX67DQCXKMv7DtAjJg=="
 							},
-							"code" : "container := BlElement new\r\t\tgeometry: BlRoundedRectangleGeometry new;\r\t\tsize: 200 @ 100;\r\t\tbackground: Color white;\r\t\tborder: (BlBorder builder\r\t\t\t\tpaint: Color black;\r\t\t\t\twidth: 3;\r\t\t\t\tdashed;\r\t\t\t\tbuild);\r\t\tyourself.\rpositions := {10 @ 20.\r\t\t40 @ 40.\r\t\t120 @ 70}.\rcontainer\r\taddChildren: (positions\r\t\t\tcollect: [ :aPosition | \r\t\t\t\t(BlElement new\r\t\t\t\t\tgeometry: BlRoundedRectangleGeometry new;\r\t\t\t\t\tsize: 30 @ 20;\r\t\t\t\t\tbackground: Color white;\r\t\t\t\t\tborder: (BlBorder builder\r\t\t\t\t\t\t\tpaint: Color blue;\r\t\t\t\t\t\t\twidth: 1;\r\t\t\t\t\t\t\tbuild)) relocate: _ ])"
+							"code" : "container := BlElement new\r\t\tgeometry: BlRoundedRectangleGeometry new;\r\t\tsize: 200 @ 100;\r\t\tbackground: Color white;\r\t\tborder: (BlBorder builder\r\t\t\t\tpaint: Color black;\r\t\t\t\twidth: 3;\r\t\t\t\tdashed;\r\t\t\t\tbuild);\r\t\tyourself."
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-06-27T22:09:15.719246+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-06-28T15:23:43.943908+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "i7jfxoO7DQC/MK0xBl5hgQ=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Con el siguiente código mostraremos la visualición de un *DynaSpace* con varios *DetectedObjects*"
+						},
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-06-27T22:08:18.342592+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-06-27T22:09:27.406554+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "p0Tcw4O7DQC9X6KVBl5hgQ=="
+							},
+							"code" : "positions := {10 @ 20.\r\t\t40 @ 40.\r\t\t120 @ 70}.\rcontainer\r\taddChildren: (positions\r\t\t\tcollect: [ :aPosition | \r\t\t\t\t(BlElement new\r\t\t\t\t\tgeometry: BlRoundedRectangleGeometry new;\r\t\t\t\t\tsize: 30 @ 20;\r\t\t\t\t\tbackground: Color white;\r\t\t\t\t\tborder: (BlBorder builder\r\t\t\t\t\t\t\tpaint: Color blue;\r\t\t\t\t\t\t\twidth: 1;\r\t\t\t\t\t\t\tbuild)) relocate: aPosition ])"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-06-28T10:07:09.268723+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-06-28T11:04:21.508026+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "PY/ZtY27DQCkyTyoCRintw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Todo *DynaSpace* tendrá un tamaño, que utilizaremos para su representación espacial. Esta característica se la añadimos como variable de instancia y también creamos sus métodos de acceso."
+						},
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-06-28T10:09:34.738762+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-06-28T10:53:05.275086+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "HqtV1427DQCxt2MCCRintw=="
+							},
+							"code" : "DynOSDynaSpace addSlot: (AccessorInstanceVariableSlot named: #size).\r(DynOSDynaSpace slotNamed: #size) installingIn: DynOSDynaSpace."
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-06-28T11:04:35.909456+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-06-28T11:04:57.97751+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "a+k1do67DQC3D4mOCRintw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Crearemos el método de clase que se utilizará como constructor."
+						},
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-06-28T11:05:02.684093+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-06-28T12:58:39.968629+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "JBaynY67DQC5VfmUCRintw=="
+							},
+							"code" : "DynOSDynaSpace class\r\tcompile: '\rwithSize: aSize\r\t^ self new size: aSize\r'\r\tclassified: 'instance creation' asSymbol.\rDynOSDynaSpace class methodNamed: #withSize:"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-06-28T11:19:18.584568+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-06-28T11:21:12.718655+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "khi20I67DQC8qdlgCRintw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Crearemos la visualización personalizada que nos muestra la representación espacial del *DynaSpace*, a la que llamaremos *Input*"
+						},
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-06-28T11:21:18.336192+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-06-28T11:39:25.551203+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "21bZ1467DQC/abyACRintw=="
+							},
+							"code" : "DynOSDynaSpace compile: '\rgtInputFor: aView\r\t<gtView>\r\t| dynaSpaceElement |\r\tdynaSpaceElement := BlElement new\r\t\tgeometry: BlRoundedRectangleGeometry new;\r\t\tsize: size;\r\t\tbackground: Color white;\r\t\tborder: (BlBorder builder\r\t\t\t\tpaint: Color black;\r\t\t\t\twidth: 3;\r\t\t\t\tdashed;\r\t\t\t\tbuild);\r\t\tyourself.\r\t^ aView explicit\r\t\t  title: #Input;\r\t\t  priority: 10;\r\t\t  stencil: [ dynaSpaceElement asScalableElement ]\r' classified: 'gt-inspector-extension'.\rDynOSDynaSpace methodNamed: #gtInputFor:\r"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-06-28T11:40:21.07504+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-06-28T11:51:45.83989+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "Kif2G4+7DQCCO4ECCRintw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Comprobaremos el resultado inspeccionando los resultados de los *DynaSpaceExamples*. Antes de eso debemos modificarlos para que utilicen un *DynaSpace* con tamaño."
+						},
+						{
+							"__type" : "pharoRewrite",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-06-28T11:59:57.735163+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-06-28T11:59:57.735163+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "PZcYYo+7DQCHnnP7CRintw=="
+							},
+							"search" : "DynOSDynaSpace new",
+							"replace" : "DynOSDynaSpace withSize: 200@100",
+							"scope" : "#(#('Class' 'Dyn') )",
+							"isMethodPattern" : false
+						},
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-06-28T11:40:46.513842+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-06-28T12:08:23.491968+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "DVR6HY+7DQCDbDN6CRintw=="
+							},
+							"code" : "DynOSDynaSpaceExamples new exampleNewDynaSpace"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-06-28T12:09:50.430045+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-06-28T12:12:14.19024+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "MV+hhI+7DQCI1bbhCRintw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Ya tenemos la visualización que buscamos. Ahora realizaremos una refactorización para encapsular la lógica de representación de los *DynaSpaces* en una clase *DynaSpaceElement*."
+						},
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-06-28T12:27:14.081884+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-06-28T12:27:41.129968+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "4Rihw4+7DQCOGQaeCRintw=="
+							},
+							"code" : "DynOSDynaSpace compile: '\rgtInputFor: aView\r\t<gtView>\r\t^ aView explicit\r\t\t  title: #Input;\r\t\t  priority: 10;\r\t\t  stencil: [ self asElement asScalableElement ]\r' classified: 'gt-inspector-extension'.\rDynOSDynaSpace methodNamed: #gtInputFor:"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-06-28T12:29:17.545461+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-06-28T12:30:04.764753+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "gCucyo+7DQCOeDKvCRintw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "El método *asElement* nos devolverá una instancia de la clase que *DynaSpaceElement*"
+						},
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-06-28T12:30:09.251136+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-06-28T12:32:03.507912+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "Px0Szo+7DQCQxX5NCRintw=="
+							},
+							"code" : "DynOSDynaSpace compile: '\rasElement\r\t^ DynOSDynaSpaceElement for: self\r' classified: 'gt-inspector-extension'.\rDynOSDynaSpace methodNamed: #asElement"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-06-27T22:13:52.145509+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-06-28T15:23:43.946302+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "nLDB14O7DQCCLYQPBl5hgQ=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Crearemos la clase *DynOSDynaSpaceElement* con el conocimiento necesario para visualizar un *DynOSDynaSpace*"
+						},
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-06-27T22:19:51.75811+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-06-27T22:25:22.755774+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "ye0w7YO7DQCEds44Bl5hgQ=="
+							},
+							"code" : "BlElement subclass: #DynOSDynaSpaceElement\r\tinstanceVariableNames: 'dynaSpace'\r\tclassVariableNames: ''\r\tpackage: 'DynaSpaceOS'"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-06-28T12:50:24.637995+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-06-28T12:50:59.830712+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "QMteFZC7DQCTJrnACRintw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Creamos el método de clase que construirá el *DynaSpaceElement* a partir del *DynaSpace*"
+						},
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-06-28T12:51:04.70538+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-06-28T12:57:20.049264+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "1czmGJC7DQCVHkL1CRintw=="
+							},
+							"code" : "DynOSDynaSpaceElement class\r\tcompile: '\rfor: aDynaSpace\r\t^ self new\r\t\t  initializeFor: aDynaSpace;\r\t\t  yourself\r'\r\tclassified: 'instance creation' asSymbol.\rDynOSDynaSpaceElement class methodNamed: #for:"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-06-28T13:39:18.96504+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-06-28T13:44:55.565239+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "JLlpxZC7DQCdOh/2CRintw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Definiremos en el método *initialize* para los *DynaSpaceElements* definiendo su layout y su borde."
+						},
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-06-28T13:43:12.208665+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-06-28T13:44:24.324347+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "D7pQ05C7DQCfmpv+CRintw=="
+							},
+							"code" : "DynOSDynaSpaceElement\r\tcompile: '\rinitialize\r\tsuper initialize.\r\tself\r\t\tlayout: BlLinearLayout vertical;\r\t\tborder: (BlBorder paint: Color gray width: 0.1)\t\r\t'\r\tclassified: #initialization.\rDynOSDynaSpaceElement methodNamed: #initialize"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-06-28T12:59:52.782343+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-06-28T15:51:17.67729+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "fqOpNpC7DQCXK0yfCRintw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "En el método *initializeFor:* estableceremos el valor de la variable de instancia *dynaSpace*, también unas restricciones verticales y horizontales del contenido y añadiremos el elemento que representa los límites del *DynaSpace* con el método *addLimits*"
+						},
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-06-28T13:01:37.192043+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-06-28T14:02:12.894832+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "js6ZPpC7DQCaxyBBCRintw=="
+							},
+							"code" : "DynOSDynaSpaceElement\r\tcompile: '\rinitializeFor: aDynaSpace\r\tdynaSpace := aDynaSpace.\r\tself\r\t\tconstraintsDo: [ :c | \r\t\t\tc vertical fitContent.\r\t\t\tc horizontal fitContent ].\r\tself addLimits\r\t'\r\tclassified: #initialization.\rDynOSDynaSpaceElement methodNamed: #initializeFor:"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-06-28T13:58:40.125788+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-06-28T13:59:47.805576+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "XaKfCpG7DQCkpVRoCRintw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "El método *addLimits* añadirá a *DynaSpaceElement* un rectángulo como hijo con las dimensiones de su *DynaSpace*"
+						},
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-06-28T13:59:52.452268+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-06-28T14:03:44.78085+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "rQjvDpG7DQCnUT6mCRintw=="
+							},
+							"code" : "DynOSDynaSpaceElement\r\tcompile: '\raddLimits\r\tself\r\t\taddChild: (BlElement new\r\t\t\t\tgeometry: BlRoundedRectangleGeometry new;\r\t\t\t\tsize: dynaSpace size;\r\t\t\t\tbackground: Color white;\r\t\t\t\tborder: (BlBorder builder\r\t\t\t\t\t\tpaint: Color black;\r\t\t\t\t\t\twidth: 3;\r\t\t\t\t\t\tdashed;\r\t\t\t\t\t\tbuild);\r\t\t\t\tyourself)\r\t' classified: #initialization.\rDynOSDynaSpaceElement methodNamed: #addLimits"
+						},
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-06-27T23:44:43.337935+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-06-28T00:25:52.627908+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "zEqsHIW7DQCHXpTsBl5hgQ=="
+							},
+							"code" : "DynOSDynaSpaceExamples new exampleNewDynaSpace"
 						}
 					]
 				},
