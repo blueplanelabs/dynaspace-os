@@ -1,0 +1,22 @@
+OmEntry {
+	#tags : {
+		#author : 'GlamorousAuthor',
+		#time : DateAndTime [ '2023-07-01T20:22:28.352852+02:00' ],
+		#prior : OmReference [ 'Pharo10-SNAPSHOT-64bit-179ef65.9kvutuofckbsmx8h2w8abxb9r', '1' ],
+		#self : OmReference [ '1' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #DynOSDynaSpace,
+				#isMetaSide : false
+			},
+			#name : #extend,
+			#protocol : #accessing,
+			#sourceCode : 'extend\r\t ^extend',
+			#stamp : 'GlamorousAuthor 7/1/2023 20:22',
+			#package : #DynaSpaceOS
+		}
+	}
+}
+

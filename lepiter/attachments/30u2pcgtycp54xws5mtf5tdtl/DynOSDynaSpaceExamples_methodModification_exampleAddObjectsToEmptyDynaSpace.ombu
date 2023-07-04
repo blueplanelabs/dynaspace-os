@@ -1,0 +1,34 @@
+OmEntry {
+	#tags : {
+		#author : 'GlamorousAuthor',
+		#time : DateAndTime [ '2023-07-03T16:03:20.533092+02:00' ],
+		#prior : OmReference [ '70' ],
+		#self : OmReference [ '71' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #DynOSDynaSpaceExamples,
+				#isMetaSide : false
+			},
+			#name : #exampleAddObjectsToEmptyDynaSpace,
+			#protocol : #examples,
+			#sourceCode : 'exampleAddObjectsToEmptyDynaSpace\r\t<gtExample>\r\t| dynaSpace |\r\tdynaSpace := self exampleNewDynaSpace.\r\tdynaSpace addDetectedObject: Object new.\r\tdynaSpace addKnownObject: Object new.\r\tself assert: dynaSpace hasKnownObjects.\r\tself assert: dynaSpace hasDetectedObjects.\r\t^ dynaSpace\r\t',
+			#stamp : '',
+			#package : #DynaSpaceOS
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #DynOSDynaSpaceExamples,
+				#isMetaSide : false
+			},
+			#name : #exampleAddObjectsToEmptyDynaSpace,
+			#protocol : #examples,
+			#sourceCode : 'exampleAddObjectsToEmptyDynaSpace\r\t<gtExample>\r\t| dynaSpace |\r\tdynaSpace := self exampleNewDynaSpace.\r\tdynaSpace addDetectedObject: (DynOSDetectedObject withExtend: 30@20).\r\tdynaSpace addDetectedObject: (DynOSDetectedObject withExtend: 30@20).\r\tdynaSpace addKnownObject: Object new.\r\tself assert: dynaSpace hasKnownObjects.\r\tself assert: dynaSpace hasDetectedObjects.\r\t^ dynaSpace\r\t',
+			#stamp : '',
+			#package : #DynaSpaceOS
+		},
+		#classPackageName : #DynaSpaceOS
+	}
+}
+

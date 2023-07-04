@@ -1,0 +1,34 @@
+OmEntry {
+	#tags : {
+		#author : 'GlamorousAuthor',
+		#time : DateAndTime [ '2023-07-03T22:49:10.910895+02:00' ],
+		#prior : OmReference [ 'Pharo10-SNAPSHOT-64bit-179ef65.1plr1mvai71ljy7et7walb9vr', '9' ],
+		#self : OmReference [ '1' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #DynOSDynaSpaceExamples,
+				#isMetaSide : false
+			},
+			#name : #exampleAddObjectsToEmptyDynaSpace,
+			#protocol : #examples,
+			#sourceCode : 'exampleAddObjectsToEmptyDynaSpace\r\t<gtExample>\r\t| dynaSpace |\r\tdynaSpace := self exampleNewDynaSpace.\r\tdynaSpace\r\t\taddDetectedObject: (DynOSDetectedObject withExtend: 30 @ 20 andPosition: nil).\r\tdynaSpace\r\t\taddDetectedObject: (DynOSDetectedObject withExtend: 30 @ 20 andPosition: nil).\r\tdynaSpace addKnownObject: Object new.\r\tself assert: dynaSpace hasKnownObjects.\r\tself assert: dynaSpace hasDetectedObjects.\r\t^ dynaSpace',
+			#stamp : '',
+			#package : #DynaSpaceOS
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #DynOSDynaSpaceExamples,
+				#isMetaSide : false
+			},
+			#name : #exampleAddObjectsToEmptyDynaSpace,
+			#protocol : #examples,
+			#sourceCode : 'exampleAddObjectsToEmptyDynaSpace\r\t<gtExample>\r\t| dynaSpace |\r\tdynaSpace := self exampleNewDynaSpace.\r\tdynaSpace\r\t\taddDetectedObject: (DynOSDetectedObject withExtend: 30 @ 20 andPosition: 10@20).\r\tdynaSpace\r\t\taddDetectedObject: (DynOSDetectedObject withExtend: 30 @ 20 andPosition: 40@40).\r\tdynaSpace\r\t\taddDetectedObject: (DynOSDetectedObject withExtend: 30 @ 20 andPosition: 120@70).\r\tdynaSpace addKnownObject: Object new.\r\tself assert: dynaSpace hasKnownObjects.\r\tself assert: dynaSpace hasDetectedObjects.\r\t^ dynaSpace',
+			#stamp : '',
+			#package : #DynaSpaceOS
+		},
+		#classPackageName : #DynaSpaceOS
+	}
+}
+
