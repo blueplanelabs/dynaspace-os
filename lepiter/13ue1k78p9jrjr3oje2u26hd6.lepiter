@@ -3652,6 +3652,78 @@
 								"__type" : "textStyle"
 							},
 							"string" : "{{gtExample:DynOSDynaSpaceExamples>>exampleAddObjectsToEmptyDynaSpace|previewExpanded=true|noCode|previewShow=gtInputFor:}}"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-07-13T10:05:16.684255+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-07-13T10:05:17.919299+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "SLOSh7u8DQC8SMwEAzxOJw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "También queremos que los *DetectedObject* sean inspeccionables desde la vista *Input* de un *DynaSpace*. Conseguimos esto utilizando {{gtMethod:BlElement>>when:do:}}, haciendo que al pulsar sobre el *DetectedObjectElement* se inspeccione."
+						},
+						{
+							"__type" : "changesSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-07-13T10:06:16.425561+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-07-13T10:06:16.425561+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "tkkii7u8DQC9Id0VAzxOJw=="
+							},
+							"previewHeight" : 200,
+							"fileName" : "attachments/b4vtetausmym76usyzq2kj4vj/EpMethodModification(DynOSDetectedObjectElement>>initializeFor_).ombu"
 						}
 					]
 				},
