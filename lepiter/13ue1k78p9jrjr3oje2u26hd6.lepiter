@@ -3829,7 +3829,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-07-13T12:20:26.973807+02:00"
+												"dateAndTimeString" : "2023-07-13T12:55:24.590964+02:00"
 											}
 										},
 										"uid" : {
@@ -3875,6 +3875,80 @@
 										},
 										"previewHeight" : 200,
 										"fileName" : "attachments/58wykq5g2jqj9pab9wf9gb3mo/EpClassAddition(DynOSUID)_EpMethodAddition(DynOSUID>>initialize)_EpMethodAddition(DynOSUID>>uid)_EpMethodAddition(DynOSUID>>uid_)_EpMethodAddition(DynOSUID>>=)_EpMethodAddition(DynOSUID>>hash).ombu"
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2023-07-13T12:55:57.986807+02:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2023-07-13T12:57:03.300001+02:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "1JIA6r28DQCvp+zsDKKjWA=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "Modelamos los[[Live Object]] en una clase, que tendrá este identificador como variable."
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2023-07-13T12:56:08.880663+02:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2023-07-13T12:56:08.880663+02:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "Kc6m6r28DQCwESl6DKKjWA=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : ""
 									}
 								]
 							},

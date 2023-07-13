@@ -1,1 +1,128 @@
-OmEntry {	#tags : {		#author : 'GlamorousAuthor',		#time : DateAndTime [ '2023-07-04T10:42:47.836549+02:00' ],		#prior : OmReference [ 'Pharo10-SNAPSHOT-64bit-179ef65.664l9z5um9nz36uc95rzvkvup', '63' ],		#self : OmReference [ '1' ]	},	#content : EpGenericRefactoring {		#storeString : '(RBAddParameterRefactoring addParameterToMethod: #withExtend: in: DynOSDetectedObject class newSelector: #withExtend:andPosition: permutation: #(1 -1) newArgs: \'((Array new: 1) at: 1 put: ; yourself)\')'	}}OmEntry {	#tags : {		#author : 'GlamorousAuthor',		#prior : OmReference [ '1' ],		#self : OmReference [ '2' ],		#time : DateAndTime [ '2023-07-04T10:42:47.851775+02:00' ],		#trigger : @3	},	#content : EpMethodAddition {		#method : RGMethodDefinition {			#annotations : IdentityDictionary {				#className : #'DynOSDetectedObject class',				#isMetaSide : true			},			#name : #'withExtend:andPosition:',			#protocol : #'intance creation',			#sourceCode : 'withExtend: aExtend andPosition: aPosition\r\t^ self new extend: aExtend',			#stamp : 'GlamorousAuthor 7/4/2023 10:42',			#package : #DynaSpaceOS		}	}}OmEntry {	#tags : {		#author : 'GlamorousAuthor',		#prior : OmReference [ '2' ],		#self : OmReference [ '3' ],		#time : DateAndTime [ '2023-07-04T10:42:47.946581+02:00' ],		#trigger : OmReference [ '1' ]	},	#content : EpMethodModification {		#oldMethod : RGMethodDefinition {			#annotations : IdentityDictionary {				#className : #DynOSDynaSpaceExamples,				#isMetaSide : false			},			#name : #exampleAddObjectsToEmptyDynaSpace,			#protocol : #examples,			#sourceCode : 'exampleAddObjectsToEmptyDynaSpace\r\t<gtExample>\r\t| dynaSpace |\r\tdynaSpace := self exampleNewDynaSpace.\r\tdynaSpace addDetectedObject: (DynOSDetectedObject withExtend: 30@20).\r\tdynaSpace addDetectedObject: (DynOSDetectedObject withExtend: 30@20).\r\tdynaSpace addKnownObject: Object new.\r\tself assert: dynaSpace hasKnownObjects.\r\tself assert: dynaSpace hasDetectedObjects.\r\t^ dynaSpace\r\t',			#stamp : 'GlamorousAuthor 7/4/2023 10:34',			#package : #DynaSpaceOS		},		#newMethod : RGMethodDefinition {			#annotations : IdentityDictionary {				#className : #DynOSDynaSpaceExamples,				#isMetaSide : false			},			#name : #exampleAddObjectsToEmptyDynaSpace,			#protocol : #examples,			#sourceCode : 'exampleAddObjectsToEmptyDynaSpace\r\t<gtExample>\r\t| dynaSpace |\r\tdynaSpace := self exampleNewDynaSpace.\r\tdynaSpace\r\t\taddDetectedObject: (DynOSDetectedObject withExtend: 30 @ 20 andPosition: nil).\r\tdynaSpace\r\t\taddDetectedObject: (DynOSDetectedObject withExtend: 30 @ 20 andPosition: nil).\r\tdynaSpace addKnownObject: Object new.\r\tself assert: dynaSpace hasKnownObjects.\r\tself assert: dynaSpace hasDetectedObjects.\r\t^ dynaSpace',			#stamp : 'GlamorousAuthor 7/4/2023 10:42',			#package : #DynaSpaceOS		},		#classPackageName : #DynaSpaceOS	}}OmEntry {	#tags : {		#author : 'GlamorousAuthor',		#prior : OmReference [ '3' ],		#self : OmReference [ '4' ],		#time : DateAndTime [ '2023-07-04T10:42:48.029231+02:00' ],		#trigger : OmReference [ '1' ]	},	#content : EpMethodModification {		#oldMethod : RGMethodDefinition {			#annotations : IdentityDictionary {				#className : #'DynOSDetectedObject class',				#isMetaSide : true			},			#name : #'withExtend:',			#protocol : #'intance creation',			#sourceCode : 'withExtend: aExtend\r\t^ self new extend: aExtend',			#stamp : 'GlamorousAuthor 7/4/2023 10:35',			#package : #DynaSpaceOS		},		#newMethod : RGMethodDefinition {			#annotations : IdentityDictionary {				#className : #'DynOSDetectedObject class',				#isMetaSide : true			},			#name : #'withExtend:',			#protocol : #'as yet unclassified',			#sourceCode : 'withExtend: aExtend\r\t^ self new extend: aExtend',			#stamp : 'GlamorousAuthor 7/4/2023 10:35',			#package : #DynaSpaceOS		},		#classPackageName : #DynaSpaceOS	}}OmEntry {	#tags : {		#author : 'GlamorousAuthor',		#prior : OmReference [ '4' ],		#self : OmReference [ '5' ],		#time : DateAndTime [ '2023-07-04T10:42:48.104923+02:00' ],		#trigger : OmReference [ '1' ]	},	#content : EpMethodRemoval {		#method : RGMethodDefinition {			#annotations : IdentityDictionary {				#className : #'DynOSDetectedObject class',				#isMetaSide : true			},			#name : #'withExtend:',			#protocol : #'intance creation',			#sourceCode : 'withExtend: aExtend\r\t^ self new extend: aExtend',			#stamp : 'GlamorousAuthor 7/4/2023 10:35',			#package : #DynaSpaceOS		}	}}
+OmEntry {
+	#tags : {
+		#author : 'GlamorousAuthor',
+		#time : DateAndTime [ '2023-07-04T10:42:47.836549+02:00' ],
+		#prior : OmReference [ 'Pharo10-SNAPSHOT-64bit-179ef65.664l9z5um9nz36uc95rzvkvup', '63' ],
+		#self : OmReference [ '1' ]
+	},
+	#content : EpGenericRefactoring {
+		#storeString : '(RBAddParameterRefactoring addParameterToMethod: #withExtend: in: DynOSDetectedObject class newSelector: #withExtend:andPosition: permutation: #(1 -1) newArgs: \'((Array new: 1) at: 1 put: ; yourself)\')'
+	}
+}
+
+OmEntry {
+	#tags : {
+		#author : 'GlamorousAuthor',
+		#prior : OmReference [ '1' ],
+		#self : OmReference [ '2' ],
+		#time : DateAndTime [ '2023-07-04T10:42:47.851775+02:00' ],
+		#trigger : @3
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #'DynOSDetectedObject class',
+				#isMetaSide : true
+			},
+			#name : #'withExtend:andPosition:',
+			#protocol : #'instance creation',
+			#sourceCode : 'withExtend: aExtend andPosition: aPosition\r\t^ self new extend: aExtend',
+			#stamp : 'GlamorousAuthor 7/4/2023 10:42',
+			#package : #DynaSpaceOS
+		}
+	}
+}
+
+OmEntry {
+	#tags : {
+		#author : 'GlamorousAuthor',
+		#prior : OmReference [ '2' ],
+		#self : OmReference [ '3' ],
+		#time : DateAndTime [ '2023-07-04T10:42:47.946581+02:00' ],
+		#trigger : OmReference [ '1' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #DynOSDynaSpaceExamples,
+				#isMetaSide : false
+			},
+			#name : #exampleAddObjectsToEmptyDynaSpace,
+			#protocol : #examples,
+			#sourceCode : 'exampleAddObjectsToEmptyDynaSpace\r\t<gtExample>\r\t| dynaSpace |\r\tdynaSpace := self exampleNewDynaSpace.\r\tdynaSpace addDetectedObject: (DynOSDetectedObject withExtend: 30@20).\r\tdynaSpace addDetectedObject: (DynOSDetectedObject withExtend: 30@20).\r\tdynaSpace addKnownObject: Object new.\r\tself assert: dynaSpace hasKnownObjects.\r\tself assert: dynaSpace hasDetectedObjects.\r\t^ dynaSpace\r\t',
+			#stamp : 'GlamorousAuthor 7/4/2023 10:34',
+			#package : #DynaSpaceOS
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #DynOSDynaSpaceExamples,
+				#isMetaSide : false
+			},
+			#name : #exampleAddObjectsToEmptyDynaSpace,
+			#protocol : #examples,
+			#sourceCode : 'exampleAddObjectsToEmptyDynaSpace\r\t<gtExample>\r\t| dynaSpace |\r\tdynaSpace := self exampleNewDynaSpace.\r\tdynaSpace\r\t\taddDetectedObject: (DynOSDetectedObject withExtend: 30 @ 20 andPosition: nil).\r\tdynaSpace\r\t\taddDetectedObject: (DynOSDetectedObject withExtend: 30 @ 20 andPosition: nil).\r\tdynaSpace addKnownObject: Object new.\r\tself assert: dynaSpace hasKnownObjects.\r\tself assert: dynaSpace hasDetectedObjects.\r\t^ dynaSpace',
+			#stamp : 'GlamorousAuthor 7/4/2023 10:42',
+			#package : #DynaSpaceOS
+		},
+		#classPackageName : #DynaSpaceOS
+	}
+}
+
+OmEntry {
+	#tags : {
+		#author : 'GlamorousAuthor',
+		#prior : OmReference [ '3' ],
+		#self : OmReference [ '4' ],
+		#time : DateAndTime [ '2023-07-04T10:42:48.029231+02:00' ],
+		#trigger : OmReference [ '1' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #'DynOSDetectedObject class',
+				#isMetaSide : true
+			},
+			#name : #'withExtend:',
+			#protocol : #'instance creation',
+			#sourceCode : 'withExtend: aExtend\r\t^ self new extend: aExtend',
+			#stamp : 'GlamorousAuthor 7/4/2023 10:35',
+			#package : #DynaSpaceOS
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #'DynOSDetectedObject class',
+				#isMetaSide : true
+			},
+			#name : #'withExtend:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'withExtend: aExtend\r\t^ self new extend: aExtend',
+			#stamp : 'GlamorousAuthor 7/4/2023 10:35',
+			#package : #DynaSpaceOS
+		},
+		#classPackageName : #DynaSpaceOS
+	}
+}
+
+OmEntry {
+	#tags : {
+		#author : 'GlamorousAuthor',
+		#prior : OmReference [ '4' ],
+		#self : OmReference [ '5' ],
+		#time : DateAndTime [ '2023-07-04T10:42:48.104923+02:00' ],
+		#trigger : OmReference [ '1' ]
+	},
+	#content : EpMethodRemoval {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #'DynOSDetectedObject class',
+				#isMetaSide : true
+			},
+			#name : #'withExtend:',
+			#protocol : #'instance creation',
+			#sourceCode : 'withExtend: aExtend\r\t^ self new extend: aExtend',
+			#stamp : 'GlamorousAuthor 7/4/2023 10:35',
+			#package : #DynaSpaceOS
+		}
+	}
+}
+

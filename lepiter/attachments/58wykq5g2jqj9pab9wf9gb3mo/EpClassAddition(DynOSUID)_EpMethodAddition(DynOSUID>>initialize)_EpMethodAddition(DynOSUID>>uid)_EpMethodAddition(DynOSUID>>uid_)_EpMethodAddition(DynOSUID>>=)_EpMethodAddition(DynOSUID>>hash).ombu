@@ -176,7 +176,7 @@ OmEntry {
 				#isMetaSide : true
 			},
 			#name : #'uid:',
-			#protocol : #'instace creation',
+			#protocol : #'instance creation',
 			#sourceCode : 'uid: anUID\r\t^ self basicNew uid: anUID',
 			#stamp : '',
 			#package : #DynaSpaceOS

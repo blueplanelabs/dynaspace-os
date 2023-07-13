@@ -66,7 +66,7 @@ OmEntry {
 				#isMetaSide : true
 			},
 			#name : #'withExtend:',
-			#protocol : #'intance creation',
+			#protocol : #'instance creation',
 			#sourceCode : 'withExtend: aExtend\r\t^ self new extend: aExtend',
 			#stamp : '',
 			#package : #DynaSpaceOS
