@@ -3829,7 +3829,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2023-07-13T12:20:26.973807+02:00"
+												"dateAndTimeString" : "2023-07-13T12:55:24.590964+02:00"
 											}
 										},
 										"uid" : {
@@ -3875,6 +3875,366 @@
 										},
 										"previewHeight" : 200,
 										"fileName" : "attachments/58wykq5g2jqj9pab9wf9gb3mo/EpClassAddition(DynOSUID)_EpMethodAddition(DynOSUID>>initialize)_EpMethodAddition(DynOSUID>>uid)_EpMethodAddition(DynOSUID>>uid_)_EpMethodAddition(DynOSUID>>=)_EpMethodAddition(DynOSUID>>hash).ombu"
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2023-07-13T12:55:57.986807+02:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2023-07-13T13:43:32.877666+02:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "1JIA6r28DQCvp+zsDKKjWA=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "Modelamos los [[Live Object]] en una clase, que tendrá este identificador como variable y un comportamiento dinámico, que en nuestro enfoque inicial será un bloque de código."
+									},
+									{
+										"__type" : "changesSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2023-07-13T16:37:32.098095+02:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2023-07-13T16:37:32.098095+02:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "JZpkAsG8DQCAMIh8CoTKTg=="
+										},
+										"previewHeight" : 200,
+										"fileName" : "attachments/4nxcmj28un0cyz3i53bkvpal4/EpClassAddition(DynOSLiveObject).ombu"
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2023-07-13T16:39:32.682092+02:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2023-07-13T16:39:46.084864+02:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "QZWUCcG8DQCAPMwhCoTKTg=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "Crearemos los métodos de acceso a sus variables."
+									},
+									{
+										"__type" : "changesSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2023-07-13T16:42:24.117697+02:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2023-07-13T16:42:24.117697+02:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "Sn3ME8G8DQCgNPRfAXsPwQ=="
+										},
+										"previewHeight" : 200,
+										"fileName" : "attachments/bfgtm5xkdgveh1ul6jzseifg6/EpMethodAddition(DynOSLiveObject>>uid)_EpMethodAddition(DynOSLiveObject>>uid_)_EpMethodAddition(DynOSLiveObject>>dynamicBehavior)_EpMethodAddition(DynOSLiveObject>>dynamicBehavior_)"
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2023-07-13T16:38:55.47453+02:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2023-07-13T16:48:35.051587+02:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "MNZcB8G8DQCANw3OCoTKTg=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "También crearemos su inicialización y su constructor."
+									},
+									{
+										"__type" : "changesSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2023-07-13T16:51:11.189214+02:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2023-07-13T16:51:11.189214+02:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "2vY2M8G8DQC0MnqcCtFlWA=="
+										},
+										"previewHeight" : 200,
+										"fileName" : "attachments/58efljt6y55xwgpv0p4qgnq5z/EpMethodAddition(DynOSLiveObject>>initialize)_EpMethodAddition(DynOSLiveObject class>>withUID_andDynamicBehavior_).ombu"
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2023-07-13T12:56:08.880663+02:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2023-07-13T17:09:08.705853+02:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "Kc6m6r28DQCwESl6DKKjWA=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "También necesitamos que los[[Detected Object]] tengan un identificador, así que lo añadimos como variable y creamos sus métodos de acceso."
+									},
+									{
+										"__type" : "changesSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2023-07-13T17:09:14.333394+02:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2023-07-13T17:09:14.333394+02:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "CG7Gc8G8DQC3sgsNBgJ01Q=="
+										},
+										"previewHeight" : 200,
+										"fileName" : "attachments/cmxh8dpy9wax716imkteqs7kn/EpClassModification(DynOSDetectedObject)_EpMethodAddition(DynOSDetectedObject>>uid)_EpMethodAddition(DynOSDetectedObject>>uid_).ombu"
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2023-07-13T17:12:22.215718+02:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2023-07-13T17:26:42.36952+02:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "rUb5fsG8DQCAlJKSD44KYg=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "El uid lo pasaremos al construir el *Detected Object*, por lo que lo añadimos como argumento al constructor con el refactor automático {{gtClass:RBAddParameterRefactoring}} que nos guiará para la modificación del método en los lugares en los que se utiliza. También modificamos donde se utiliza para pasar valores válidos y el constructor para manejar el nuevo "
+									},
+									{
+										"__type" : "changesSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2023-07-13T17:19:32.466466+02:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2023-07-13T17:19:32.466466+02:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "52SemMG8DQCFtlYoD44KYg=="
+										},
+										"previewHeight" : 200,
+										"fileName" : "attachments/5sycedksrr5egsi6t7fyczmoo/RBAddParameterRefactoring addParameterToMethod (DynOSDetectedObject class withExtend_andPosition to withExtend_position_andUID)_EpMethodModification(DynOSDynaSpaceExamples>>exampleAddObjectsToEmptyDynaSpace)_EpMethodModification(DynOSDetectedObject c.ombu"
 									}
 								]
 							},
